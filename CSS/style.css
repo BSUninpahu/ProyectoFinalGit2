@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: block;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 49, 181);
+    color: rgb(32, 30, 30);
+    padding: 10px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+
+    
+}
+.header2{
+    display: flex;
+    padding-right: 280px;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+    margin: 5px 5px 5px 5px;
+}
+.button{
+    border: none;
+    background-color: rgb(49, 49, 181);
+}
+.button-main{
+    border: none;
+    background-color: white;
+}
