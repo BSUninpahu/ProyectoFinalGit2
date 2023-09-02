@@ -45,4 +45,19 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-}   
+} 
+.tipo-letra{
+    --tw-text-opacity: 1;
+    color: rgba(9, 27, 90, var(--tw-text-opacity));
+    margin-left: 30%;
+} 
+.containerimg{
+    text-align: center;
+} 
+.imagen-cuadrada {
+    width: 200px; 
+    height: auto;
+    object-fit: cover; 
+    display: inline-block; 
+    margin: 0 auto; 
+  }
