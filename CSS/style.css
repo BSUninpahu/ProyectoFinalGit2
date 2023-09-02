@@ -15,7 +15,7 @@ body, html {
 header{
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color:#3529be;
     padding: 40px 100px;
@@ -24,29 +24,20 @@ header{
     width: 100%;
   
 }
-.header1{
+.header1 , .header2{
     display: flex;
     align-items: center;
+
+    
 }
 .header2{
     display: flex;
-    padding-right: 300px;
-    background-color:#3529be;
-    color:white;
-}
-li:hover{
-    transform: scale(1.4s);
-}
-.button-main{
-    background-color:rgb(255, 255, 255); 
-    color:#3529be;
-    border-radius: 10%;
-    justify-content: start;
+    padding-right: 280px;
 }
 .icon{
-    height: 100px;
-    width: 100px;
-    position: 20 60px;
+    height: 22px;
+    width: 22px;
+    margin: 5px 5px 5px 5px;
 }
 nav ul li {
     list-style: none;
@@ -65,17 +56,48 @@ nav ul li {
 .button-main{
     border-bottom: 20;
     background-color: white;
+    height: 40px;
+    border-radius: 5px;
 }
 .container2{
-    height: 40%;
+    height: 32%;
     width: 100%;
     display: flex;
     justify-content: center;
-} 
+    align-items: center;
+}
+
+.main{
+    width: 40%;
+}
+
+.aside-right-main , .aside-left-main{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.decorations1{
+    position: absolute;
+    left: 0px;
+    top: 93px;
+    width: 80%;
+    height: 70%;
+}
+
+.decorations2{
+    position: absolute;
+    left: 280px;
+    top: 93px;
+    width: 50%;
+    height: 70%;
+}
+
 h1{
     margin: 0px;
     text-align: center;
 }
+
 .pheader{
     margin:1px;
     text-align: center;
@@ -118,4 +140,5 @@ ul{
     object-fit: cover; 
     display: inline-block; 
     margin: 0 auto; 
-  }
+    margin: 0 auto; 
+}
