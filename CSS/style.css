@@ -11,25 +11,23 @@ body, html {
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(49, 49, 181);
     color: rgb(32, 30, 30);
     padding: 10px;
 }
-.header1{
+.header1 , .header2{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    height: 40px;    
+}
 
-    
-}
-.header2{
-    display: flex;
-    padding-right: 280px;
-}
 .icon{
-    height: 22px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     margin: 5px 5px 5px 5px;
 }
 .button{
@@ -39,17 +37,48 @@ header{
 .button-main{
     border: none;
     background-color: white;
+    height: 40px;
+    border-radius: 5px;
 }
 .container2{
-    height: 40%;
+    height: 32%;
     width: 100%;
     display: flex;
     justify-content: center;
-} 
+    align-items: center;
+}
+
+.main{
+    width: 40%;
+}
+
+.aside-right-main , .aside-left-main{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.decorations1{
+    position: absolute;
+    left: 0px;
+    top: 93px;
+    width: 80%;
+    height: 70%;
+}
+
+.decorations2{
+    position: absolute;
+    left: 280px;
+    top: 93px;
+    width: 50%;
+    height: 70%;
+}
+
 h1{
     margin: 0px;
     text-align: center;
 }
+
 .pheader{
     margin:1px;
     text-align: center;
@@ -92,4 +121,4 @@ ul{
     object-fit: cover; 
     display: inline-block; 
     margin: 0 auto; 
-  }
+}
