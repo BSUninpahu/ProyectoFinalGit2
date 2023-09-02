@@ -40,3 +40,9 @@ header{
     border: none;
     background-color: white;
 }
+.container2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
