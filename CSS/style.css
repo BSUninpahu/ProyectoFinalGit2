@@ -3,9 +3,6 @@ body, html {
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
-    -webkit-text-size-adjust: 100%;
-    tab-size: 5%;
-    border-color: antiquewhite;
 }
 .container{
     display: block;
@@ -13,48 +10,32 @@ body, html {
 }
 
 header{
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#3529be;
-    padding: 40px 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-  
+    background-color: rgb(49, 49, 181);
+    color: rgb(32, 30, 30);
+    padding: 10px;
 }
 .header1 , .header2{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    height: 40px;    
+}
 
-    
-}
-.header2{
-    display: flex;
-    padding-right: 280px;
-}
 .icon{
-    height: 22px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     margin: 5px 5px 5px 5px;
 }
-nav ul li {
-    list-style: none;
-    display:inline-grid;
-    padding: 15px 15px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-    transition: color 0.4s;
-
-
-   
-
+.button{
+    border: none;
+    background-color: rgb(49, 49, 181);
 }
 .button-main{
-    border-bottom: 20;
+    border: none;
     background-color: white;
     height: 40px;
     border-radius: 5px;
@@ -139,6 +120,5 @@ ul{
     height: auto;
     object-fit: cover; 
     display: inline-block; 
-    margin: 0 auto; 
     margin: 0 auto; 
 }
