@@ -3,6 +3,9 @@ body, html {
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 5%;
+    border-color: antiquewhite;
 }
 .container{
     display: block;
@@ -10,34 +13,57 @@ body, html {
 }
 
 header{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(49, 49, 181);
-    color: rgb(32, 30, 30);
-    padding: 10px;
+    background-color:#3529be;
+    padding: 40px 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
 }
 .header1{
     display: flex;
     align-items: center;
-
-    
 }
 .header2{
     display: flex;
-    padding-right: 280px;
+    padding-right: 300px;
+    background-color:#3529be;
+    color:white;
 }
-.icon{
-    height: 22px;
-    width: 22px;
-    margin: 5px 5px 5px 5px;
-}
-.button{
-    border: none;
-    background-color: rgb(49, 49, 181);
+li:hover{
+    transform: scale(1.4s);
 }
 .button-main{
-    border: none;
+    background-color:rgb(255, 255, 255); 
+    color:#3529be;
+    border-radius: 10%;
+    justify-content: start;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    position: 20 60px;
+}
+nav ul li {
+    list-style: none;
+    display:inline-grid;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.4s;
+
+
+   
+
+}
+.button-main{
+    border-bottom: 20;
     background-color: white;
 }
 .container2{
