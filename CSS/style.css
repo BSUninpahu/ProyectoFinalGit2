@@ -15,7 +15,7 @@ header{
     align-items: center;
     background-color: rgb(49, 49, 181);
     color: rgb(32, 30, 30);
-    padding: px;
+    padding: 10px;
 }
 .header1 , .header2{
     display: flex;
@@ -72,15 +72,15 @@ header{
 .decorations1{
     position: absolute;
     left: 0px;
-    top: 85px;
+    top: 35%;
     width: 80%;
     height: 65%;
 }
 
 .decorations2{
     position: absolute;
-    left: 280px;
-    top: 85px;
+    left: 57%;
+    top: 35%;
     width: 50%;
     height: 65%;
 }
@@ -155,7 +155,8 @@ ul{
 .let{
     --tw-text-opacity: 1;
     color: rgba(9, 27, 90, var(--tw-text-opacity));
-    margin-left: 40%; 
+    width: auto; 
+    margin-left: 40%;
 }
 .rectangulo1{
     display: inline-block;
