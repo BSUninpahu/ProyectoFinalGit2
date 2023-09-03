@@ -267,7 +267,7 @@ ul{
     background-color: rgb(139, 255, 255);
     color:rgb(0, 44, 83) ;
     text-align: left;
-    margin-left: 3%;
+    
     font-weight: 700;
     text-decoration: underline;
     width: 100%;
@@ -282,7 +282,8 @@ ul{
 .Contacto{
     display: block;
     color: white;
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: blue;
     width: 100%;
 }
