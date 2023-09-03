@@ -15,7 +15,7 @@ header{
     align-items: center;
     background-color: rgb(49, 49, 181);
     color: rgb(32, 30, 30);
-    padding: 10px;
+    padding: px;
 }
 .header1 , .header2{
     display: flex;
@@ -41,7 +41,7 @@ header{
     border-radius: 5px;
 }
 .container2{
-    height: 32%;
+    height: 38%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,17 +61,17 @@ header{
 .decorations1{
     position: absolute;
     left: 0px;
-    top: 93px;
+    top: 85px;
     width: 80%;
-    height: 70%;
+    height: 65%;
 }
 
 .decorations2{
     position: absolute;
     left: 280px;
-    top: 93px;
+    top: 85px;
     width: 50%;
-    height: 70%;
+    height: 65%;
 }
 
 h1{
@@ -121,4 +121,67 @@ ul{
     object-fit: cover; 
     display: inline-block; 
     margin: 0 auto; 
+}
+.let{
+    --tw-text-opacity: 1;
+    color: rgba(9, 27, 90, var(--tw-text-opacity));
+    margin-left: 40%; 
+}
+.rectangulo1{
+    display: inline-block;
+    width: 230px;
+    height: 70%;
+    margin-left: 19%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: rgb(119, 195, 230);
+}
+.rectangulo2{
+    display: inline-block;
+    width: 230px;
+    height: 70%;
+    margin-left: 5%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: rgb(119, 230, 208);
+}
+.rectangulo3{
+    display: inline-block;
+    width: 230px;
+    height: 70%;
+    margin-left: 5%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(194, 151, 243);
+}
+.imarecta{
+    width: 230px;
+    height: 45%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.marca{
+    width: 90px;
+    height: 75px;
+    margin-left: 5%;
+}
+.resum{
+    font-size: 13px;
+    margin-left: 8%;
+    font-family: sans-serif;
+}
+.nom{
+    font-size: 10px;
+    margin-left: 45%;
+}
+.nom2{
+    font-size: 10px;
+    margin-left: 55%;
+}
+.nom3{
+    font-size: 10px;
+    margin-left: 5%;
 }
