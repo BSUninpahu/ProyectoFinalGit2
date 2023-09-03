@@ -45,7 +45,7 @@ header{
 /*header*/
 
 .container2{
-    height: 35%;
+    height: 39%;
     width: 100%;
     display: flex;
     background-color:rgb(49, 49, 181);
@@ -96,16 +96,17 @@ h1{
     font-size: 20px;
 }
 .email{
-    right:50px;
+    right:40px;
     display:flex;
     border-radius: 3px;
     border: 0;
-    padding: 10px; 
+    padding: 8px; 
     width: 300px;  
 }
 ul{
     list-style: none;
-    display: flex;  
+    display: flex; 
+    padding: 10px; 
 }
 .li1{
     padding-left: 30px;  
@@ -114,7 +115,7 @@ ul{
     border-radius: 5px;
     color: black;
     background-color: aqua;
-    right: 10px;
+    right: 50px;
     border: 0;
     padding: 10px;
 }
