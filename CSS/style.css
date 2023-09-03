@@ -110,10 +110,14 @@ ul{
 .tipo-letra{
     --tw-text-opacity: 1;
     color: rgba(9, 27, 90, var(--tw-text-opacity));
-    margin-left: 30%;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 } 
 .containerimg{
     text-align: center;
+    align-items: center;
 } 
 .imagen-cuadrada {
     width: 200px; 
@@ -121,11 +125,32 @@ ul{
     object-fit: cover; 
     display: inline-block; 
     margin: 0 auto; 
+    
+}
+
+.containerimg-2{
+    
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.imagen-cuadrada2{
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    
 }
 .let{
     --tw-text-opacity: 1;
     color: rgba(9, 27, 90, var(--tw-text-opacity));
-    margin-left: 40%; 
+    margin-left: 0%;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    text-align: center;
 }
 .rectangulo1{
     display: inline-block;
