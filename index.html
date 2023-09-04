@@ -72,7 +72,7 @@
                         <b><p class="resum">"Lilt's AI-powered translation services helped us reduce translation cost by 40%."</p></b>
                         <b><p class="nom">Loic Dufresne de Virel</p></b>
                         <label class="footernom">Head of localization</label><br>
-                        <label class="Ready"><strong>Ready to story →</strong></label>
+                        <label class="Ready" onclick="readytostory('intel')"><strong>Ready to story →</strong></label>
                     </div>
                     
                 </div>
@@ -83,7 +83,7 @@
                         <b><p class="resum">"more than anything, I value a parther who moves fast and values innovation. That's why we work with Lilt."</p></b>
                         <b><p class="nom2">Alesandra Binazzi</p></b>
                         <label class="footernom">Head of localization</label><br>
-                        <label class="Ready"><strong>Ready to story →</strong></label>
+                        <label class="Ready" onclick="readytostory('asics')"><strong>Ready to story →</strong></label>
                     </div>
                 </div>
                 <div class="rectangulo3">
@@ -93,7 +93,7 @@
                         <b><p class="resum">"Lilt handels everything from urgent campaigns to large-scale, long-term projects for Canva."</p></b>
                         <b><p class="nom3">Paul Buckley</p></b>
                         <label class="footernom2">Head of localization</label><br>
-                        <label class="Ready2"><strong>Ready to story →</strong></label>
+                        <label class="Ready2" onclick="readytostory('canva')"><strong>Ready to story →</strong></label>
                     </div>
                 </div>
     
@@ -193,4 +193,21 @@
         
         </div>
     </body>
+    <script>
+        function readytostory(id){
+            let url = "https://www.google.com";
+            switch(id){
+                case "intel":
+                    url="https://www.intel.la/content/www/xl/es/homepage.html";
+                break;
+                case "asics":
+                    url="https://www.asics.com.co/";
+                break;
+                case "canva":
+                    url="https://www.canva.com/es_es/";
+                break;
+            }
+            location.href = url;
+        }
+    </script>
 </html>
